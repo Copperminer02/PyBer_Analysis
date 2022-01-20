@@ -19,8 +19,8 @@ This analysis creates a summary data frame of ride sharing data by city type for
 
 ## Result Outputs
 
-  **1. PyBer_Challenge.ipynb** - jupyter notebook file produced to import, merge, and perform calculations on city_data.csv and ride_data.csv
-  **2. Analysis/PyBer_fare_summary.png** -line plot output
+ **1. PyBer_Challenge.ipynb** - jupyter notebook file produced to import, merge, and perform calculations on city_data.csv and ride_data.csv
+ **2. Analysis/PyBer_fare_summary.png** -line plot output *"Average Fares by Week and Type"
 
 ## Analysis Workflow
 
@@ -28,7 +28,7 @@ Using Pandas and matPlotlib in Jupyter Notebook the ***city_data.csv and ride_da
 
 ![image](https://user-images.githubusercontent.com/91850824/149672546-9d3991f1-13ad-4c0e-81ed-4fc34d54386b.png)
 
-Using Pandas *groupby* function, total rides, total drivers, and total fares recieved were calculated with regards to city type and series were created for each with city type as the index.  Average fare and average fare per driver were then calculated from groupby output and series for each were formed.  The series were then combined into a new dataframe (pyber_summary_df).
+Using Pandas *groupby* function, total rides, total drivers, and total fares recieved were calculated with regards to city type and series were created for each with city type as the index.  Average fare and average fare per driver were then calculated from the groupby output and the series from each were formed.  The series were then combined into a new dataframe (pyber_summary_df).
 
 ![image](https://user-images.githubusercontent.com/91850824/149672633-30dec300-c31d-4bc4-8c1d-a237d5215b2a.png)
 
@@ -94,7 +94,7 @@ To increase the attractiveness for rural riders, rates in "Rural Areas" could be
 
 There does appear to be great participation in ***Urban Cities***; however, in comparison to ***Suburban and Rural***, ***Urban Drivers*** make $16.57 per ride versus $39.50 and $55.49 respctively.  It would appear that given the amount of rides taken in ***Urban*** areas that the driver market is over saturated.  It may be beneficial to limit the amount of drivers participating at a certain time to increase the rides to participating drivers and hence allowing for more potential for each driver to profit.  The downside potential is that you may decrease availabillity; however, if driver's feel like they have limitted abillity to profit PyBer, they may lose interest.  
 
-Another option could be to raise rates in ***Urban Cities*** to support urban drivers.
+Another option could be to raise rates in ***Urban Cities*** to support urban drivers. To make this more benficial for all groups, a base ride fee could be created and the mileage rate decreased.  Assuming that the advantage of Rural Driver's is distance, a set base rate could maintain the total rates for rural, and make urban driving more lucrative and more intersting for potential drivers.
 
 3.  ***Analyize Peak demand and notify drivers of the potential***
 
